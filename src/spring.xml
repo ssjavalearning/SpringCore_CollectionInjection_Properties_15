@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean id="info" class="com.suraj.spring.beans.HCLInfo">
+		<property name="props">
+			<props>
+				<prop key="1001">Suraj</prop>
+				<prop key="1002">Rama</prop>
+				<prop key="1003">Shyama</prop>
+			</props>
+		</property>
+	</bean>
+</beans>
